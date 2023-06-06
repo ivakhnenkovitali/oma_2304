@@ -40,9 +40,7 @@
       <artifactId>commons-lang3</artifactId>
       <version>3.14.0</version>
     </dependency>
-
   </dependencies>
-
   <build>
     <finalName>2304_marketplace</finalName>
     <plugins>
