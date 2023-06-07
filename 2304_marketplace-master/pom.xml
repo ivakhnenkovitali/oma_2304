@@ -42,6 +42,7 @@
     </dependency>
   </dependencies>
   <build>
+
     <finalName>2304_marketplace</finalName>
     <plugins>
       <plugin>
