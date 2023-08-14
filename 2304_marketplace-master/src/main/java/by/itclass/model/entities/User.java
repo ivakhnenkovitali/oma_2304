@@ -13,4 +13,5 @@ public class User {
     private final String email;
     private final String login;
     private final char[] password;
+
 }
