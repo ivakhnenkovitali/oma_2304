@@ -1,0 +1,28 @@
+<div class="vertical-menu">
+  <a href="#" class="active">Filters</a>
+  <form action="/laptop" method="post">
+    <a href="#">Vendor</a>
+    <label class="filter-container">HP
+      <input type="checkbox" name="vendor" value="HP"></label>
+    <label class="filter-container">Lenovo
+      <input type="checkbox" name="vendor" value="Lenovo"></label>
+    <label class="filter-container">Dell
+      <input type="checkbox" name="vendor" value="Dell"></label>
+    <a href="#">CPU</a>
+    <label class="filter-container">AMD
+      <input type="checkbox" name="cpu" value="AMD"></label>
+    <label class="filter-container">Intel
+      <input type="checkbox" name="cpu" value="Intel"></label>
+    <a href="#">Memory Size</a>
+    <label class="filter-container">8
+      <input type="checkbox" name="memorySize" value="8"></label>
+    <label class="filter-container">16
+      <input type="checkbox" name="memorySize" value="16"></label>
+    <a href="#">Price</a>
+    <label class="filter-container">From
+      <input name="priceFrom"></label>
+    <label class="filter-container">To
+      <input name="priceTo"></label>
+    <input type="submit" value="Use Filters">
+  </form>
+</div>
